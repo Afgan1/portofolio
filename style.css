@@ -1,0 +1,88 @@
+/*
+dark purple : #26092A
+green       : #00444A
+red         : #903139
+orange      : #D3624C
+purple      : #6E5574
+ligth purple: #8f7296
+*/
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #26092A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Sans-Serif;
+  color: white;
+  font-weight: bold;
+}
+
+#profile {
+  width: 300px;
+  padding-bottom: 10%;
+  background-color: #6E5574;
+  border-radius: 30px;
+  box-shadow: 0 0 20px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#profile #photo-profile{
+  width: 100px;
+  height: 100px;
+  background-color: #6E5574;
+  border-radius: 50%;
+  border: 2px solid #26092A;
+  position: relative;
+  bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+#profile #datas-profile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+#profile #datas-profile div {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+}
+
+#profile #datas-profile div > *{
+  background-color: #8f7296;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+#profile #datas-profile div .label{
+  width: 30%;
+  /*background-color: red;*/
+}
+
+#profile #datas-profile div .value{
+  width: 50%;
+  /*background-color: green;*/
+}
